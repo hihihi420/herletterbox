@@ -48,6 +48,8 @@ saveButton.addEventListener("click", () => {
 
 // Play coin sound
 function playSound() {
-    const audio = new Audio("https://example.com/coin-sound.mp3"); // Replace with actual sound URL
-    audio.play();
+    const audio = new Audio("https://assets.mixkit.co/sfx/preview/mixkit-game-coin-win-1935.mp3");
+    audio.play().catch(error => {
+        console.error("Sound playback failed:", error);
+    });
 }
