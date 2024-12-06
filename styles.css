@@ -1,0 +1,97 @@
+/* styles.css */
+body {
+    background-color: #fce4ec;
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.header {
+    background-color: #f8bbd0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    color: #880e4f;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.header p {
+    color: #6a1b9a;
+    margin: 5px 0 0;
+}
+
+main {
+    background-color: #ffebee;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+    width: 90%;
+    height: 100px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.8rem;
+    padding: 10px;
+    border: 2px dashed #ec407a;
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+}
+
+textarea:focus {
+    border-color: #d81b60;
+    box-shadow: 0 0 8px #d81b60;
+}
+
+button {
+    background-color: #d81b60;
+    color: #ffffff;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.9rem;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: #c2185b;
+    transform: scale(1.1);
+}
+
+#letters-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+#letters-list li {
+    background-color: #f8bbd0;
+    color: #880e4f;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 0.8rem;
+    color: #6a1b9a;
+}

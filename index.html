@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faydra's Letterbox</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Faydra's Letterbox</h1>
+            <p>Welcome to your personal letterbox! Read whenever you wish ❤️</p>
+        </header>
+
+        <main>
+            <section id="write-letter">
+                <h2>Write a New Letter</h2>
+                <textarea id="letter-input" placeholder="Write your letter here..."></textarea>
+                <button id="save-letter">Save Letter</button>
+            </section>
+
+            <section id="letterbox">
+                <h2>Your Letters</h2>
+                <ul id="letters-list">
+                    <!-- Dynamically generated letters will appear here -->
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Faydra's Letterbox. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
