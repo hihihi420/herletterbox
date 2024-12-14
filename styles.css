@@ -89,11 +89,6 @@ button:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.predefined {
-    font-style: italic;
-    color: #9c27b0;
-}
-
 footer {
     margin-top: 20px;
     padding: 10px;
